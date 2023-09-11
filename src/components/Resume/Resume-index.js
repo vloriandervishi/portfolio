@@ -11,9 +11,18 @@ function Resume(props) {
   return (
     <React.Fragment>
       <div class="degree-position">
-        <img src={degree} width="400" height="200"></img>
-        <img src={cert} width="400" height="200"></img>
-        <img src={asdgr} width="400" height="200"></img>
+        <div class="center">
+          {" "}
+          <img src={degree} width="400" height="200"></img>
+        </div>
+        <div class="center">
+          {" "}
+          <img src={cert} width="400" height="200"></img>
+        </div>
+        <div class="center">
+          {" "}
+          <img src={asdgr} width="400" height="200"></img>
+        </div>
       </div>
 
       {/* <div class="resume"><a href="./Resume.pdf" download><img src={resumelogo}></img></a></div> */}

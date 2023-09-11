@@ -5,8 +5,8 @@
 /* brand color palette */
 :root {
   --primary: rgb(50, 100, 100);
-  --secondary: rgba(146, 204, 206, 1);
-  --tertiary: rgba(49, 52, 61, 1);
+  --secondary: rgba(16, 22, 22, 1);
+  --tertiary: rgba(192, 192, 192, 1);
   --dark: rgba(28, 29, 33, 1);
   --light: rgba(238, 238, 247, 1);
 }
@@ -386,10 +386,13 @@ label {
 }
 .dbt {
   border-radius:50%;
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+
 }
+
 .degree-position{
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 

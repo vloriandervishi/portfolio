@@ -9,7 +9,7 @@ function About() {
         <div>
           <img class="dbt" src={picture}></img>
         </div>
-        <p id="abtmep">
+        {/* <p id="abtmep">
           {" "}
           Cracking dad jokes by day, coding and crashing computers by night -
           welcome to the world of a proud dad and software maven! As a father to
@@ -19,7 +19,7 @@ function About() {
           house. An MTSU alum, I've woven a rich tapestry of binary codes,
           late-night debugging, and proudly holding the "Father of the Year"
           mug.#End.{" "}
-        </p>
+        </p> */}
       </div>
     </main>
   );
