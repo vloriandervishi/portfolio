@@ -13,7 +13,7 @@ function Nav(props) {
               className="nav"
               href={"#" + tab.toLocaleLowerCase()}
               onClick={() => props.handlePageChange(tab)}
-              className={props.currentPage === tab ? "navActive" : "a"}
+              // className={props.currentPage === tab ? "navActive" : "a"}
             >
               {tab}{" "}
             </a>
