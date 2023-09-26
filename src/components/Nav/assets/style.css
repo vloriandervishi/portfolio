@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     list-style-type:none;
+    margin:20px;
   }
   .a {
     text-decoration: none;
